@@ -6,5 +6,5 @@ def Banner():
     print()
     banner = pyfiglet.figlet_format("NELE SCAN" , font="ansi_shadow", )
     console = Console()
-    console.print(banner, style="#5800AA")
+    print(banner)
     console.print("┃Developed by @Mata4r", style="#363636")
